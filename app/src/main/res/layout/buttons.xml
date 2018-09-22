@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:rowCount="5"
+    android:layout_margin="2dp"
+    >
+
+    <Button
+        android:id="@+id/one"
+        style="@style/numberButtons"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="0"
+        android:onClick="tappedButton"
+
+        android:text="@string/_1" />
+
+    <Button
+        android:id="@+id/two"
+        style="@style/numberButtons"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="0"
+        android:onClick="tappedButton"
+
+        android:text="@string/_2" />
+
+    <Button
+        android:id="@+id/three"
+        style="@style/numberButtons"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="0"
+        android:onClick="tappedButton"
+
+        android:text="@string/_3" />
+
+    <Button
+        android:id="@+id/add"
+        style="@style/signButtons"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="0"
+        android:onClick="tappedButton"
+
+        android:text="@string/add" />
+
+    <Button
+        android:id="@+id/four"
+        style="@style/numberButtons"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="1"
+        android:onClick="tappedButton"
+
+        android:text="@string/_4" />
+
+    <Button
+        android:id="@+id/five"
+        style="@style/numberButtons"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="1"
+
+        android:onClick="tappedButton"
+        android:text="@string/_5" />
+
+    <Button
+        android:id="@+id/six"
+        style="@style/numberButtons"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="1"
+        android:onClick="tappedButton"
+
+        android:text="@string/_6" />
+
+    <Button
+        android:id="@+id/sub"
+        style="@style/signButtons"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="1"
+        android:onClick="tappedButton"
+
+        android:text="@string/sub" />
+
+
+    <Button
+        android:id="@+id/seven"
+        style="@style/numberButtons"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="2"
+        android:onClick="tappedButton"
+
+        android:text="@string/_7" />
+
+    <Button
+        android:id="@+id/eight"
+        style="@style/numberButtons"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="2"
+        android:onClick="tappedButton"
+
+        android:text="@string/_8" />
+
+    <Button
+        android:id="@+id/nine"
+        style="@style/numberButtons"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="2"
+        android:onClick="tappedButton"
+
+        android:text="@string/_9" />
+
+    <Button
+        android:id="@+id/mul"
+        style="@style/signButtons"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="2"
+        android:onClick="tappedButton"
+
+        android:text="@string/x" />
+
+    <Button
+        android:id="@+id/c"
+        style="@style/signButtons"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="4"
+        android:onClick="tappedButton"
+
+        android:text="@string/c" />
+
+    <Button
+        android:id="@+id/zero"
+        style="@style/numberButtons"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="3"
+        android:onClick="tappedButton"
+
+        android:text="@string/_0" />
+
+    <Button
+        android:id="@+id/del"
+        style="@style/signButtons"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="3"
+        android:onClick="tappedButton"
+
+        android:text="@string/del" />
+
+    <Button
+        android:id="@+id/div"
+        style="@style/signButtons"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="3"
+        android:onClick="tappedButton"
+
+        android:text="@string/div" />
+
+    <Button
+        android:id="@+id/dot"
+        style="@style/numberButtons"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="3"
+        android:onClick="tappedButton"
+
+
+        android:text="@string/dot" />
+
+    <Button
+        android:id="@+id/eql"
+        style="@style/signButtons"
+        android:layout_column="1"
+        android:layout_columnWeight="3"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="4"
+        android:onClick="tappedButton"
+
+        android:text="@string/eql" />
+
+</GridLayout>
